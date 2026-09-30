@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="OVI PAWS - Dog Walking & Pet Care across Mumbai.">
+<title>OVI PAWS | Dog Walking & Pet Care</title>
+<style>
+:root{--g:#123f32;--g2:#1d5846;--sage:#86a873;--cream:#f7f5ed;--gold:#efc35f;--white:#fff;--text:#17352d;--muted:#718078}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--cream);color:var(--text)}
+header{position:sticky;top:0;z-index:20;background:#fffdf8ee;backdrop-filter:blur(10px);padding:14px 6%;display:flex;align-items:center;justify-content:space-between;box-shadow:0 2px 14px #0001}
+.logo{font-size:29px;font-weight:900;letter-spacing:-1px}.logo b{color:var(--sage)}
+nav{display:flex;gap:22px;align-items:center}nav a{color:var(--text);text-decoration:none;font-weight:700;font-size:14px}
+.btn{display:inline-block;background:var(--g);color:#fff;text-decoration:none;padding:14px 24px;border-radius:32px;font-weight:800}
+.btn.gold{background:var(--gold);color:var(--g)}
+.hero{background:linear-gradient(135deg,var(--g),#245b49);color:#fff;text-align:center;padding:95px 20px 85px}
+.hero .paw{font-size:48px}.hero h1{font-size:58px;margin:12px 0 8px}.hero h1 span{color:#a7c68f}.hero h2{font-size:25px;margin:0 0 18px}.hero p{max-width:720px;margin:0 auto 30px;color:#dce8e1;font-size:19px;line-height:1.6}
+.section{max-width:1100px;margin:auto;padding:78px 22px}.center{text-align:center}.section h2{font-size:40px;margin:0 0 14px}.lead{max-width:760px;margin:0 auto 35px;color:var(--muted);font-size:17px;line-height:1.65}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:stretch}
+.box{background:#fff;border-radius:26px;padding:32px;box-shadow:0 10px 30px #00000010;border:1px solid #e5e7df}.box h3{font-size:25px;margin-top:0}.box p{line-height:1.7;color:#53625c}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.service{background:#fff;border-radius:24px;padding:28px;box-shadow:0 8px 24px #0000000d;border:1px solid #e5e7df}.icon{font-size:35px}.service h3{margin:12px 0 8px}.service p{color:var(--muted);line-height:1.55}
+.plans{background:var(--g);color:#fff}.plans .lead{color:#dce8e1}.plan-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}.card{background:#fff;color:var(--text);border:4px solid #cbd9bd;border-radius:28px;padding:32px;min-height:370px;display:flex;flex-direction:column}.card.pop{border-color:var(--gold);position:relative}.badge{position:absolute;right:20px;top:-15px;background:var(--gold);color:var(--g);padding:8px 14px;border-radius:20px;font-weight:900}.price{font-size:38px;font-weight:900;color:var(--g)}.price small{font-size:17px;color:var(--muted)}.card h3{font-size:23px;margin:10px 0 17px}.card ul{list-style:none;padding:0;margin:0 0 25px}.card li{margin:13px 0;line-height:1.4}.tick{color:var(--sage);font-weight:900;margin-right:9px}.card .btn{margin-top:auto;text-align:center;background:var(--gold);color:var(--g)}
+.why{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.why .box{text-align:center;padding:25px}.why strong{display:block;font-size:17px;margin-top:9px}
+.contact{background:#fff}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px}.contact-item{padding:22px;background:var(--cream);border-radius:20px;margin:12px 0}.contact-item b{display:block;margin-bottom:6px}.contact a{color:var(--g);font-weight:800}
+footer{background:#0d3027;color:#dce8e1;text-align:center;padding:30px 20px}.social{margin-top:14px}footer a{color:#fff;margin:0 8px}
+.menu{display:none;font-size:25px}
+@media(max-width:800px){nav{display:none}.menu{display:block}.hero h1{font-size:43px}.about,.contact-grid{grid-template-columns:1fr}.services{grid-template-columns:1fr 1fr}.plan-grid{grid-template-columns:1fr}.why{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.hero{padding:70px 18px}.hero h1{font-size:38px}.section{padding:60px 17px}.section h2{font-size:32px}.services{grid-template-columns:1fr}.why{grid-template-columns:1fr}.logo{font-size:24px}.hero p{font-size:17px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">🐾 OVI <b>PAWS</b></div>
+  <nav>
+    <a href="#about">About</a><a href="#services">Services</a><a href="#plans">Plans</a><a href="#contact">Contact</a>
+    <a class="btn" href="https://wa.me/919004783016">Book a Walk</a>
+  </nav>
+  <div class="menu">☰</div>
+</header>
+
+<section class="hero">
+  <div class="paw">🐾</div>
+  <h1>OVI <span>PAWS</span></h1>
+  <h2>Dog Walking & Pet Care</h2>
+  <p>Professional, caring and reliable pet care for happier, healthier dogs. We help your pup stay active, comfortable and loved — right across Mumbai.</p>
+  <a class="btn gold" href="https://wa.me/919004783016">Book Your Dog's Walk</a>
+</section>
+
+<section class="section" id="about">
+  <div class="center">
+    <h2>Welcome to OVI PAWS</h2>
+    <p class="lead">Happy Paws, Happy Homes. OVI PAWS is a home-based dog walking and pet care service created to give every dog regular activity, attention and loving care.</p>
+  </div>
+  <div class="about">
+    <div class="box"><h3>🐶 Our Introduction</h3><p>We believe every dog deserves safe walks, exercise, play and personal attention. OVI PAWS offers convenient pet-care services for busy pet parents while keeping your dog's routine comfortable and consistent.</p><p><b>Service Area:</b> All Over Mumbai</p></div>
+    <div class="box"><h3>❤️ Our Promise</h3><p>We focus on dependable routines, caring handling and clear communication with pet parents. Every booking is planned around the dog's needs, routine and comfort.</p><p><b>Tagline:</b> Happy Paws, Happy Homes.</p></div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="center"><h2>Our Services</h2><p class="lead">Flexible care options for everyday routines, busy days and extra attention.</p></div>
+  <div class="services">
+    <div class="service"><div class="icon">🚶🐶</div><h3>Dog Walking</h3><p>Regular walks to support your dog's daily activity and routine.</p></div>
+    <div class="service"><div class="icon">🏠🐾</div><h3>Pet Sitting</h3><p>Caring companionship and attention while you're away.</p></div>
+    <div class="service"><div class="icon">🐕</div><h3>Puppy Care</h3><p>Gentle care, playtime and attention for young pups.</p></div>
+    <div class="service"><div class="icon">🥣💧</div><h3>Feeding & Watering</h3><p>On-time meals and fresh water according to your instructions.</p></div>
+    <div class="service"><div class="icon">🎾</div><h3>Playtime & Exercise</h3><p>Extra activity and enrichment to keep your dog engaged.</p></div>
+    <div class="service"><div class="icon">❤️🐾</div><h3>Special Care</h3><p>Extra attention for dogs who need a more personalized routine.</p></div>
+  </div>
+</section>
+
+<section class="section plans" id="plans">
+  <div class="center"><h2>Simple Monthly Plans</h2><p class="lead">Choose a plan that fits your dog's routine. Custom plans can be discussed for multiple dogs or special schedules.</p></div>
+  <div class="plan-grid">
+    <article class="card"><div class="price">₹3,500 <small>/ month</small></div><h3>30-Minute Plan</h3><ul><li><span class="tick">✓</span>30-minute daily dog walk</li><li><span class="tick">✓</span>26 walking days per month</li><li><span class="tick">✓</span>Safe & caring walker</li><li><span class="tick">✓</span>Walk updates for pet parents</li></ul><a class="btn" href="https://wa.me/919004783016">Enquire Now</a></article>
+    <article class="card pop"><div class="badge">POPULAR</div><div class="price">₹4,500 <small>/ month</small></div><h3>45-Minute Plan</h3><ul><li><span class="tick">✓</span>45-minute daily dog walk</li><li><span class="tick">✓</span>26 walking days per month</li><li><span class="tick">✓</span>Extra play & exercise time</li><li><span class="tick">✓</span>Walk updates for pet parents</li></ul><a class="btn" href="https://wa.me/919004783016">Enquire Now</a></article>
+    <article class="card"><div class="price">₹5,500 <small>/ month</small></div><h3>60-Minute Plan</h3><ul><li><span class="tick">✓</span>60-minute daily dog walk</li><li><span class="tick">✓</span>26 walking days per month</li><li><span class="tick">✓</span>More exercise & enrichment</li><li><span class="tick">✓</span>Photo / walk updates</li></ul><a class="btn" href="https://wa.me/919004783016">Enquire Now</a></article>
+    <article class="card"><div class="price">₹6,500 <small>/ month</small></div><h3>Two-Walk Plan</h3><ul><li><span class="tick">✓</span>Two dog walks per day</li><li><span class="tick">✓</span>26 walking days per month</li><li><span class="tick">✓</span>Better daily activity routine</li><li><span class="tick">✓</span>Regular walk / photo updates</li></ul><a class="btn" href="https://wa.me/919004783016">Enquire Now</a></article>
+  </div>
+</section>
+
+<section class="section">
+  <div class="center"><h2>Why Pet Parents Choose OVI PAWS</h2></div>
+  <div class="why">
+    <div class="box">🐾<strong>Reliable Routines</strong></div>
+    <div class="box">❤️<strong>Loving Care</strong></div>
+    <div class="box">🛡️<strong>Safety Focused</strong></div>
+    <div class="box">📍<strong>All Over Mumbai</strong></div>
+  </div>
+</section>
+
+<section class="section contact" id="contact">
+  <div class="center"><h2>Let's Get Your Pup Moving!</h2><p class="lead">Have a question or want to book a walk? Contact OVI PAWS directly.</p></div>
+  <div class="contact-grid">
+    <div class="box">
+      <div class="contact-item"><b>📲 WhatsApp / Phone</b><a href="https://wa.me/919004783016">+91 90047 83016</a></div>
+      <div class="contact-item"><b>📸 Instagram</b><a href="https://instagram.com/OVI_PAWS_">@OVI_PAWS_</a></div>
+      <div class="contact-item"><b>📍 Service Area</b>All Over Mumbai</div>
+    </div>
+    <div class="box">
+      <h3>📘 Facebook</h3>
+      <p>Your Facebook page link has not been provided yet, so I have kept this section ready without inventing an ID.</p>
+      <p><b>Facebook:</b> Add your official OVI PAWS page link here.</p>
+      <a class="btn" href="https://wa.me/919004783016">Send Facebook Link to Update</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div>🐾 <b>OVI PAWS</b> • Dog Walking & Pet Care</div>
+  <div class="social"><a href="https://instagram.com/OVI_PAWS_">Instagram</a> • <a href="https://wa.me/919004783016">WhatsApp</a> • Facebook coming soon</div>
+  <div style="margin-top:12px">Happy Paws, Happy Homes. ❤️</div>
+</footer>
+</body>
+</html>
